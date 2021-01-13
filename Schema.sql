@@ -1,0 +1,15 @@
+CREATE TABLE Netlfix (
+	Index INT PRIMARY KEY,
+	"Year" INT NOT NULL,
+	"Category" VARCHAR NOT NULL,
+	"List" VARCHAR NOT NULL,
+	"Area" VARCHAR NOT NULL,
+	"Rating" VARCHAR NOT NULL
+	
+);
+CREATE TABLE Subscribers (
+	Index INT PRIMARY KEY,
+	"Subscribers" INT NOT NULL,
+	"Area" VARCHAR NOT NULL ,
+	"Year" INT NOT NULL
+);
