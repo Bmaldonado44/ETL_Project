@@ -1,15 +1,15 @@
-CREATE TABLE Netlfix (
-	Index INT PRIMARY KEY,
-	"Year" INT NOT NULL,
-	"Category" VARCHAR NOT NULL,
-	"List" VARCHAR NOT NULL,
-	"Area" VARCHAR NOT NULL,
-	"Rating" VARCHAR NOT NULL
+CREATE TABLE netflix (
+	id INT PRIMARY KEY,
+	year INT NOT NULL,
+	category VARCHAR NOT NULL,
+	list VARCHAR NOT NULL,
+	country VARCHAR NOT NULL,
+	rating VARCHAR NOT NULL
 	
 );
-CREATE TABLE Subscribers (
-	Index INT PRIMARY KEY,
-	"Subscribers" INT NOT NULL,
-	"Area" VARCHAR NOT NULL ,
-	"Year" INT NOT NULL
+CREATE TABLE subscribers (
+	id INT PRIMARY KEY,
+	subscribers INT NOT NULL,
+	area VARCHAR NOT NULL ,
+	year INT NOT NULL
 );
